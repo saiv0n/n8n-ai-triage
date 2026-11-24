@@ -42,7 +42,7 @@ A run against `gemini-3.5-flash-lite` on Google's free tier:
 
 All 12 were classified as expected. In one of the runs the Turkish lead timed out on the test side while the free tier was retrying under load; sent again on its own it scored 90. On a paid key that wait goes away.
 
-The free tier allows 15 requests a minute, which is why the eval waits 5 seconds between messages. A real contact form never gets close to that.
+The free tier allows 15 requests a minute, which is why the eval waits 5 seconds between messages. A typical contact form gets far fewer than that.
 
 ## Set it up
 
